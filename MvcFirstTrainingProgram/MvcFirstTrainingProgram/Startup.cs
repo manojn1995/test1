@@ -16,6 +16,7 @@ namespace MvcFirstTrainingProgram
     {
         public void Configuration(IAppBuilder app)
         {
+
             // For more information visit http://go.microsoft.com/fwlink/?LinkID=316888
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
